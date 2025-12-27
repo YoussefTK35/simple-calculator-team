@@ -15,3 +15,15 @@ const clear = document.getElementById('clear');
 clear.addEventListener('click',()=>{
     input.value="";
 });
+const deleteBtn = document.getElementById('delete');
+deleteBtn.addEventListener('click',()=>{
+    input.value=input.value.slice(0,input.value.length-1);
+})
+const parenl = document.getElementById('parenl');
+const parenr = document.getElementById('parenr');
+parenl.addEventListener('click',()=>{
+    input.value+="(";
+});
+parenr.addEventListener('click',()=>{
+    input.value+=")";
+});
