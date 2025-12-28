@@ -1,6 +1,10 @@
 ### 🧮 Collaborative Calculator
 A simple calculator project built with a focus on version control and team collaboration workflows.
 
+### Screenshot
+
+![](./Screenshot.png)
+
 ### 🎯 The Goal
 While the functionality is simple, the primary objective of this project was to master the "Git Flow." We used this project as a sandbox to practice:
 
